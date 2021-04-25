@@ -1,0 +1,5 @@
+numero = input('Digite um número: ')
+if int(numero)%5 == 0:
+    print('Buzz')
+else:
+    print(numero)
