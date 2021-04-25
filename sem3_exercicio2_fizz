@@ -1,0 +1,5 @@
+numero = input('Digite um número: ')
+if int(numero)%3 == 0:
+    print('Fizz')
+else:
+    print(numero)
