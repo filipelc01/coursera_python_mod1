@@ -1,0 +1,8 @@
+num1 = input('Digite o primeiro número: ')
+num2 = input('Digite o segundo número: ')
+num3 = input('Digite o terceiro número: ')
+
+if int(num1) < int(num2) and int(num2) < int(num3):
+    print('crescente')
+else:
+    print('não está em ordem crescente')
