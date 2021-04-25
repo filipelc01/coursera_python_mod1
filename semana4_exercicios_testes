@@ -1,0 +1,31 @@
+'''
+count = 0
+while (count <= 10):
+    print (count, "Olá Mundo!")
+    count = count + 1
+'''
+
+'''
+x = 10
+while not (x == 0):
+    x = x-1
+    if x % 2 != 0: 
+      print (x)
+'''
+
+
+#Conta a quantidade de números pares e ímpares digitados pelo usuário e imprime o resultado após o usuário digitar 0 (zero)
+#terminou = False
+p = i = 0
+while (not terminou):
+    n = int(input("Digite um número, ou zero para terminar: "))
+    if n == 0:
+        terminou = True
+    else:
+        if n % 2 == 0:
+            p = p + 1
+        else:
+            i = i + 1
+
+print ("P = ", p)
+print ("I = ", i)
