@@ -1,4 +1,4 @@
-#2 digitos adjacentes iguais
+#Digitos adjacentes iguais
 
 print("Verificaremos se a sequencia do número digitado tem digitos adjacentes iguais")
 num = int(input("Digite um número: "))
