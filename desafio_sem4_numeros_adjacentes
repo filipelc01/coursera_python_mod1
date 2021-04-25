@@ -1,0 +1,17 @@
+#2 digitos adjacentes iguais
+
+print("Verificaremos se a sequencia do número digitado tem digitos adjacentes iguais")
+num = int(input("Digite um número: "))
+igual = False
+aux = 0
+while not igual and aux == 0:
+    
+    aux = num%10
+    num = num//10
+    aux2 = num%10
+    if aux == aux2:
+        print("Há seequencia adjacente no número digitado")
+        igual = True
+
+if not igual:
+    print("Não há número adjacentes")
